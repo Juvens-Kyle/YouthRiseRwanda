@@ -1,38 +1,165 @@
-<!Doctype html> 
+<!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-    
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initital-scale=1.0">
-     <meta name="description" content="Juvens Asifiwe | WDD130 Web Fundamentals">
-     <meta name="author" content="Juvens ASIFIWE">
-     <title>YouthRiseRwanda</title>
-     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YouthRiseRwanda - Opportunities for Rwandan Youth">
+    <meta name="author" content="Juvens ASIFIWE">
+    <title>YouthRiseRwanda</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Top banner div before header -->
+    <div class="top-banner">
+        <div class="banner-content">
+            <p>Empowering Rwandan Youth with Opportunities for Growth</p>
+            <a href="#" class="btn">Sign Up</a>
+        </div>
+    </div>
+
     <header>
-   <Div>
-   <nav>
-      <a href="#">Home</a>
-      <a href="#">Scholarships</a>
-      <a href="#">Conferences</a>
-      <a href="#">Grants</a>
-      <a href="#">Fellowship & Workshops</a>
-      <a href="#">Services</a>
+        <div class="logo-container">
+            <h1>YouthRiseRwanda</h1>
+            <p class="tagline">Elevating Rwanda's Future Leaders</p>
+        </div>
 
-      <div class="dropdown">
-         <a href="#">Services</a>
-         <div class="dropdown-content">
-             <a href="#">Advertise with Us</a>
-             <a href="#">Post an Opportunity</a>
-         </div>
-      <a href="#">Contact Us</a>
-   </div>
-   </nav>
-   </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Scholarships</a>
+            <a href="#">Conferences</a>
+            <a href="#">Grants</a>
+            <a href="#">Fellowship & Workshops</a>
+            
+            <div class="dropdown">
+                <a href="#">Services</a>
+                <div class="dropdown-content">
+                    <a href="#">Advertise with Us</a>
+                    <a href="#">Post an Opportunity</a>
+                </div>
+            </div>
+            
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
 
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Discover Opportunities. Build Your Future.</h2>
+                <p>YouthRiseRwanda connects young Rwandans with scholarships, jobs, and growth opportunities.</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Search opportunities...">
+                    <button>Search</button>
+                </div>
+            </div>
+        </section>
 
+        <!-- Featured Opportunities Section -->
+        <section class="featured-opportunities">
+            <h2>Featured Opportunities</h2>
+            <div class="opportunities-grid">
+                <div class="opportunity-card">
+                    <h3>STEM Scholarship 2025</h3>
+                    <p class="deadline">Deadline: March 15, 2025</p>
+                    <p>Full scholarship for undergraduate studies in Engineering, Technology, and Mathematics.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
 
+                <div class="opportunity-card">
+                    <h3>Young Entrepreneurs Grant</h3>
+                    <p class="deadline">Deadline: April 10, 2025</p>
+                    <p>Funding opportunity for innovative business ideas from Rwandan youth.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
 
+                <div class="opportunity-card">
+                    <h3>Digital Skills Workshop</h3>
+                    <p class="deadline">Date: March 5-7, 2025</p>
+                    <p>Free 3-day workshop on web development, digital marketing, and data analysis.</p>
+                    <a href="#" class="btn">Register Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <h2>Browse by Category</h2>
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <img src="images/education.jpg" alt="Education icon">
+                    <h3>Education</h3>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="images/career.jpg" alt="Career icon">
+                    <h3>Career</h3>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="images/funding.jpg" alt="Funding icon">
+                    <h3>Funding</h3>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="images/skills.jpg" alt="Skills icon">
+                    <h3>Skills Development</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- Success Stories Section -->
+        <section class="success-stories">
+            <h2>Success Stories</h2>
+            <div class="story-container">
+                <div class="story">
+                    <img src="images/profile1.jpg" alt="Success story profile">
+                    <div class="story-content">
+                        <h3>Marie Uwamahoro</h3>
+                        <p>"Through a scholarship I found on YouthRiseRwanda, I was able to complete my degree in Computer Science. Now I work as a software developer in Kigali."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter to receive the latest opportunities directly in your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>About YouthRiseRwanda</h3>
+                <p>We are dedicated to connecting Rwandan youth with opportunities that help them achieve their dreams and contribute to Rwanda's development.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Opportunities</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@youthriserwanda.com</p>
+                <p>Phone: +250 78 123 4567</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 YouthRiseRwanda. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
