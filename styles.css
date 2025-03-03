@@ -111,7 +111,8 @@ nav a:hover {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+        display: flex;
+        flex-direction: column;
 }
 
 /* Hero Section */
